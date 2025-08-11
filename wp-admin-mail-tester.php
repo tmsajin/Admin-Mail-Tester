@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly.
  * Add a menu item in the admin dashboard.
  */
 add_action('admin_menu', function() {
-    add_menu_page(
+    add_management_page(
         __('Mail Tester', 'wp-admin-mail-tester'),
         __('Mail Tester', 'wp-admin-mail-tester'),
         'manage_options',

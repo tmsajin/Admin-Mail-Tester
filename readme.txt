@@ -21,11 +21,20 @@ The WP Admin Mail Tester plugin provides a straightforward way for site administ
 
 For more details, please visit the [plugin's GitHub page](https://github.com/tmsajin/WP-Admin-Mail-Tester).
 
-== Installation ==
+== Installation and Usage ==
 
-1.  Upload the `wp-admin-mail-tester` folder to the `/wp-content/plugins/` directory.
+1.  Upload the `wp-admin-mail-tester` folder to the `/wp-content/plugins/` directory via FTP or upload the ZIP file through the WordPress admin dashboard at 'Plugins' -> 'Add New'.
 2.  Activate the plugin through the 'Plugins' menu in WordPress.
-3.  Go to the 'Mail Tester' menu in your admin dashboard to send a test email.
+3.  Once activated, you can find the plugin's page under the "Tools" menu in your WordPress admin dashboard.
+
+To send a test email:
+
+1.  Navigate to **Tools -> Mail Tester**.
+2.  The "To Address" field will be pre-filled with the site admin's email, but you can change it to any email address you want to test.
+3.  Fill in the "Subject" and "Message" for your test email.
+4.  Optionally, click the "Choose File" button to select a file from your computer to send as an attachment.
+5.  Click the "Send Test Email" button.
+6.  The page will reload and display a success or failure message at the top, which will help you confirm if your site's email functionality is working correctly.
 
 == Frequently Asked Questions ==
 
@@ -35,7 +44,7 @@ Yes, you can attach any file type that is allowed by your server's PHP configura
 
 = Where do I find the settings page? =
 
-In your WordPress admin dashboard, look for the "Mail Tester" link in the main sidebar menu.
+In your WordPress admin dashboard, navigate to **Tools -> Mail Tester**.
 
 == Screenshots ==
 
