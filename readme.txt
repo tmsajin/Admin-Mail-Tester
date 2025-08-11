@@ -1,4 +1,4 @@
-=== WP Admin Mail Tester ===
+=== Admin Mail Tester ===
 Contributors: wpsajin
 Tags: mail, email, test, admin, attachment
 Requires at least: 5.2
@@ -12,7 +12,7 @@ A simple plugin to send a test email with an attachment from the WordPress admin
 
 == Description ==
 
-The WP Admin Mail Tester plugin provides a straightforward way for site administrators to test if their WordPress installation is sending emails correctly. It adds a simple page in the admin dashboard where you can:
+The Admin Mail Tester plugin provides a straightforward way for site administrators to test if their WordPress installation is sending emails correctly. It adds a simple page in the admin dashboard where you can:
 
 *   Specify a recipient email address.
 *   Write a custom subject and message.
@@ -23,7 +23,7 @@ For more details, please visit the [plugin's GitHub page](https://github.com/tms
 
 == Installation and Usage ==
 
-1.  Upload the `wp-admin-mail-tester` folder to the `/wp-content/plugins/` directory via FTP or upload the ZIP file through the WordPress admin dashboard at 'Plugins' -> 'Add New'.
+1.  Upload the `admin-mail-tester` folder to the `/wp-content/plugins/` directory via FTP or upload the ZIP file through the WordPress admin dashboard at 'Plugins' -> 'Add New'.
 2.  Activate the plugin through the 'Plugins' menu in WordPress.
 3.  Once activated, you can find the plugin's page under the "Tools" menu in your WordPress admin dashboard.
 
@@ -48,8 +48,7 @@ In your WordPress admin dashboard, navigate to **Tools -> Mail Tester**.
 
 == Screenshots ==
 
-1. The main interface of the WP Admin Mail Tester plugin, showing the fields for recipient, subject, message, and attachment.
-2. A confirmation message after a test email has been sent successfully.
+1. The main interface of the Admin Mail Tester plugin, showing the fields for recipient, subject, message, and attachment.
 
 == Changelog ==
 
